@@ -1,10 +1,10 @@
 package com.github.prgrms.security;
 
 import com.github.prgrms.errors.NotFoundException;
-import com.github.prgrms.users.Email;
-import com.github.prgrms.users.Role;
-import com.github.prgrms.users.User;
-import com.github.prgrms.users.UserService;
+import com.github.prgrms.users.domain.Email;
+import com.github.prgrms.users.constant.Role;
+import com.github.prgrms.users.domain.User;
+import com.github.prgrms.users.service.UserService;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.AuthenticationServiceException;

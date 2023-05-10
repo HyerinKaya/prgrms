@@ -1,8 +1,8 @@
 package com.github.prgrms.configures;
 
 import com.github.prgrms.security.*;
-import com.github.prgrms.users.Role;
-import com.github.prgrms.users.UserService;
+import com.github.prgrms.users.constant.Role;
+import com.github.prgrms.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
